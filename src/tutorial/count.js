@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
+import { Button } from 'react-bootstrap';
 
 class App extends Component {
   constructor(props){
@@ -36,6 +37,7 @@ class App extends Component {
         </div>
         <div>
           <h1>{this.state.count}</h1>
+          <Button bsStyle="success" onClick={()=>alert('clicked')}>Bootstrap Button</Button>
         </div>
         
       </div>
