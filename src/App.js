@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+
 import Count from './tutorial/Count'
 import StateLessComponent from './tutorial/StateLessComponent';
 
