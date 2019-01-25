@@ -40,13 +40,12 @@ class App extends Component {
         'Content-Type': 'application/json'
       }
     }
-    fetch(registerUrl,header).then(res=>{
+    fetch(registerUrl,header).then(response=>response.json())
+    .then(res=>{
      console.log(res);
     }).catch(error=>{
       console.log(error)
     })
-    
-    
     
   }
 
